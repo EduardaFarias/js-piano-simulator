@@ -1,5 +1,5 @@
 # JS Piano Simulator 🎹
-A musical keyboard virtual made with JS Vanilla, with volume control and the option to turn on or disable the letters that identify the keys.
+A musical keyboard virtual made with JS Vanilla, with volume control and the option to turn on or disable the letters that identify the keys. You can type both with the mouse and by using the corresponding keys.
 
 ## 🎮 Ready?
 <a href="https://eduardafarias.github.io/js-piano-simulator/" target="_blank">Click here to try it</a>

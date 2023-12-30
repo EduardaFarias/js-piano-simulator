@@ -4,6 +4,9 @@ let audio = new Audio("src/tunes/a.wav");
 const volume = document.querySelector(".volume-slider input");
 const keysCheck = document.querySelector(".keys-check input");
 
+const github = document.querySelector(".github-icon");
+const linkedin = document.querySelector(".linkedin-logo");
+
 const playTune = (key) => {
     audio.src = `src/tunes/${key}.wav`
     audio.play();
@@ -40,3 +43,15 @@ showHideKeys = () =>{
 }
 
 keysCheck.addEventListener("click", showHideKeys);
+
+
+github.addEventListener("click", () =>{
+    window.open('https://github.com/EduardaFarias', '_blank');
+});
+
+linkedin.addEventListener("click", () =>{
+    window.open('https://www.linkedin.com/in/eduarda-farias-2938b2235/', '_blank');
+});
+
+
+

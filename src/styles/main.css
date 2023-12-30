@@ -59,6 +59,8 @@ header .column span{
     padding: 35px 40px;
     border-radius: 20px;
     background-color: #000000;
+    position: relative;
+    z-index: 0;
 }
 
 .container header{
@@ -120,4 +122,30 @@ header .column span{
 
 .piano-keys .key.hide span {
     display: none;
+}
+
+
+
+.header-apresentation {
+    display: flex;
+    padding: 20px; /* Adicionando algum espaçamento interno */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 1000; /* Garante que o cabeçalho fique acima do conteúdo */
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.linkedin-logo {
+    width: 40px; /* Ajuste conforme necessário */
+    height: 40px; /* Ajuste conforme necessário */
+    cursor: pointer;
+}
+
+.github-icon{
+    width: 88px;
+    height: 45px;
+    cursor: pointer;
 }
